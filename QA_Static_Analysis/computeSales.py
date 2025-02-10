@@ -75,7 +75,7 @@ if __name__ == "__main__":
     # Print results to console
     print("\n--- Sales Report ---")
     print(f"Total Sales: ${total_sales:.2f}")
-    print(f"Execution Time: {execution_time:.4f} seconds")
+    print(f"Execution Time: {execution_time:.6f} seconds")
 
     if warnings:
         print("\nWarnings:")
